@@ -1,0 +1,118 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &766376106022424744
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 766376106022424750}
+  - component: {fileID: 766376106022424751}
+  m_Layer: 0
+  m_Name: EnvironmentManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &766376106022424750
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 766376106022424744}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 8, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &766376106022424751
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 766376106022424744}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_GeneratorAsset: {fileID: 0}
+  m_Script: {fileID: 11500000, guid: 1d69328491fec4c4e9e3bb7ff37386a6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rotateSpikeBluePrint:
+    objectPrefab: {fileID: 3695929713932980784, guid: 4d7870f44681b3749a568f3b9ba691a8,
+      type: 3}
+    checkToSpawn: 1
+    spawnCoolDown: 3
+    spawnRangeOffset: 50
+    checkToDistoryOverTime: 1
+    spawnObjLiveTime: 15
+    untilSpawnTime: 0
+  underGroundSpikeBluePrint:
+    objectPrefab: {fileID: 8732531866764299861, guid: 7ded76151ba6bd8448ecbf5ad56a8303,
+      type: 3}
+    checkToSpawn: 1
+    spawnCoolDown: 10
+    spawnRangeOffset: 10
+    checkToDistoryOverTime: 1
+    spawnObjLiveTime: 20
+    untilSpawnTime: 0
+  speedDownAreaBluePrint:
+    objectPrefab: {fileID: 8009676605208419238, guid: cafff20d24e79a54c9bce681909d583d,
+      type: 3}
+    checkToSpawn: 1
+    spawnCoolDown: 10
+    spawnRangeOffset: 20
+    checkToDistoryOverTime: 1
+    spawnObjLiveTime: 20
+    untilSpawnTime: 0
+  npcTeamPlayerBluePrint:
+    objectPrefab: {fileID: 2984594101538146152, guid: 28ae9401a73a44644ac25f6b52fc99a6,
+      type: 3}
+    checkToSpawn: 1
+    spawnCoolDown: 10
+    spawnRangeOffset: 40
+    checkToDistoryOverTime: 0
+    spawnObjLiveTime: 20
+    untilSpawnTime: 0
+  npcTeamEnemyBluePrint:
+    objectPrefab: {fileID: 4192866919802762201, guid: 9357bb2ce78037645ab4a30a5d4dc888,
+      type: 3}
+    checkToSpawn: 1
+    spawnCoolDown: 5
+    spawnRangeOffset: 40
+    checkToDistoryOverTime: 0
+    spawnObjLiveTime: 20
+    untilSpawnTime: 0
+  bazookaBluePrint:
+    objectPrefab: {fileID: 1670969549692860552, guid: e2dd96cea416df24a8d2b382f6713122,
+      type: 3}
+    checkToSpawn: 1
+    spawnCoolDown: 9
+    spawnRangeOffset: 40
+    checkToDistoryOverTime: 0
+    spawnObjLiveTime: 20
+    untilSpawnTime: 0
+  pistolBluePrint:
+    objectPrefab: {fileID: 7213744244088454247, guid: 90805f648a34887459d19a9ff22b4d42,
+      type: 3}
+    checkToSpawn: 1
+    spawnCoolDown: 3
+    spawnRangeOffset: 40
+    checkToDistoryOverTime: 0
+    spawnObjLiveTime: 20
+    untilSpawnTime: 0
+  lazerBluePrint:
+    objectPrefab: {fileID: 8292146828560275245, guid: 0201a03950a0d914281f95165f2f95c1,
+      type: 3}
+    checkToSpawn: 1
+    spawnCoolDown: 6
+    spawnRangeOffset: 40
+    checkToDistoryOverTime: 0
+    spawnObjLiveTime: 20
+    untilSpawnTime: 0
